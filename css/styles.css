@@ -13,7 +13,7 @@ h1 {
   font-family: 'Sacramento', cursive;
   color: #2b580c;
   margin-bottom: 30px;
-  padding-top: 200px;
+  padding-top: 300px;
 }
 
 h2 {
@@ -88,8 +88,10 @@ hr {
 
 .top-cloud {
   position: absolute;
+  padding-top: 50px;
+  padding-bottom: 50px;
   right: 30%;
-  top: 180px;
+  top: 100px;
 }
 
 .bottom-cloud {
@@ -100,6 +102,7 @@ hr {
 .mntn {
   padding-top: 50px;
   margin-top: 100px;
+  width: 50%;
 }
 
 .skills {
@@ -207,6 +210,6 @@ hr {
 }
 
 #navbarSupportedContent {
-  margin-left: 1000px;
+  /* margin-left: 1000px; */
   text-transform: uppercase;
 }
