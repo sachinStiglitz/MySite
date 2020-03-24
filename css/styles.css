@@ -7,21 +7,26 @@ body {
 
 h1 {
   margin-top: 0;
+  text-align: center;
   font-size: 5.625em;
   font-weight: bold;
   font-family: 'Sacramento', cursive;
   color: #2b580c;
   margin-bottom: 30px;
+  padding-top: 200px;
 }
 
 h2 {
   color: #2b580c;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
+  margin: 30px auto 50px;
 }
 
 h3 {
   color: #639a67;
   font-family: 'Montserrat', sans-serif;
+  margin-bottom: 50px;
 }
 
 hr {
@@ -36,6 +41,15 @@ hr {
   width: 5%;
 }
 
+.menu {
+  position: fixed;
+  top: 0;
+}
+
+.dropdown-item {
+  text-transform: none;
+}
+
 .intro {
   margin-bottom: 50px;
 }
@@ -43,11 +57,12 @@ hr {
   display: inline-block;
   line-height: 2;
   width: 30%;
+  margin: 50px auto;
 }
 
 .top-container {
   background-color: #d8ebb5;
-  padding-top: 300px;
+
 }
 
 .profile-pic {
@@ -89,18 +104,18 @@ hr {
 
 .skills {
   margin-bottom: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .skill-row1 {
-  margin: 100px auto;
+  margin: 80px auto;
   text-align: left;
   width: 50%;
   line-height: 2;
 }
 
 .skill-row2 {
-  margin: 110px auto 100px auto;
+  margin: 150px auto 100px auto;
   text-align: left;
   width: 50%;
   line-height: 2;
@@ -189,4 +204,9 @@ hr {
   border: .01rem solid #2b580c;
   border-radius: 20px;
   text-decoration: none;
+}
+
+#navbarSupportedContent {
+  margin-left: 1000px;
+  text-transform: uppercase;
 }
